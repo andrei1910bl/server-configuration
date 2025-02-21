@@ -1,0 +1,11 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///Users/macbookair/Desktop/senla-course-bulavski_andrei/server-conf/src/main/resources/  # Укажите абсолютный путь
