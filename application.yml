@@ -7,5 +7,5 @@ spring:
   cloud:
     config:
       server:
-        native:
-          search-locations: file:///Users/macbookair/Desktop/senla-course-bulavski_andrei/server-conf/src/main/resources/  # Укажите абсолютный путь
+        git:
+          uri: https://github.com/andrei1910bl/server-configuration
